@@ -4,7 +4,8 @@ spring:
   application:
     name: service-discovery
   config:
-    import: optional:configserver:http://3.39.47.157//8888/
+#    import: optional:configserver:http://3.39.47.157//8888/
+    import: optional:configserver:http://127.0.0.1:8888/
     name: service-discovery
     activate:
       on-profile: default
